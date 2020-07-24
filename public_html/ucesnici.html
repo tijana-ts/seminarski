@@ -1,0 +1,74 @@
+
+<html>
+    <head>
+        <title>Kragujevac open - učesnici</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="funkcije.js" type="text/javascript"></script>
+        <link href="izgled.css" rel="stylesheet" type="text/css"/>
+        <link rel="SHORTCUT ICON" href="images/image_06.jpg"/>
+    </head>
+    <body onload="ucitaj()">
+        <div id="prvi">
+            
+            <div id="header">
+                <h1 id="tekst">Kragujevac Open</h1>
+                <h4 id="datum">Od 27.06.2020. do 03.07.2020.</h4>
+            </div>
+            
+            <div>
+                <ul class="meni">
+                    <li><a href="pocetna.html" target="_self">Početna</a></li>
+                    <li><a class="active" href="#ucesnici">Učesnici</a></li>
+                    <li><a href="raspored.html" target="_self">Raspored mečeva</a></li>
+                    <li><a href="ulaznice.html" target="_self">Ulaznice</a></li>
+                    <li><a href="kontakt.html" target="_self">Kontakt</a></li>
+                </ul>
+            </div>
+            <br>
+            
+            <div style="margin: 20px">
+                <h1 id="naslov">Učesnici Kragujevac open-a</h1>
+                
+                <div id="pozicija">
+                    <div>
+                        <input type="button" value="Prethodni" onclick="prethodni()" id="dugme">
+                        <input type="button" value="Sledeći" onclick="sledeci()" id="dugme">
+                    </div>
+                    
+                    <div>
+                        <img id="slika" src="images/ucesnik1.png"/>
+                    </div>
+                    
+                    <div id="ucesnik" style="">&nbsp;</div>
+                    <br><br>
+                    
+                    <div id="opis"></div>
+                </div>
+            </div>
+            
+            <script type="text/javascript">
+                document.getElementById("ucesnik").innerHTML = "<b>" + ucesnici[0] + "</b>";
+                document.getElementById("opis").innerHTML = opisi[0];
+            </script>
+            <br>
+            
+            <div>
+                <hr class="linija" style="height: 20px; margin-left: 15px; margin-right: 15px">
+            </div>
+            <br><br>
+            
+            <div style="margin: 20px">
+                <input type="button" value="Pogledajte TOP 10 tenisera na ATP listi" onclick="prikazi()" id="dugme" style="width: 700px"/>
+                <div id="tabela"></div>
+            </div>
+        </div>
+        
+        <div id="footer">
+            <div class="divFooter">
+                Copy &copy; 2020 <a href="#" style="color: #fe9b00">Kragujevac open</a> All rights reserved
+            </div>
+        </div>
+    </body>
+</html>
+

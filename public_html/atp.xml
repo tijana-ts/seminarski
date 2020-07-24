@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!-- was: <?xml version="1.0" encoding="ISO-8859-1"?> -->
+<!-- Edited by XMLSpy® -->
+<ATP>
+	<TENISER>
+		<RANKING>1</RANKING>
+		<PLAYER>Novak Đoković</PLAYER>
+		<COUNTRY>Srbija</COUNTRY>
+		<AGE>32</AGE>
+		<POINTS>10,220</POINTS>
+	</TENISER>
+	<TENISER>
+		<RANKING>2</RANKING>
+		<PLAYER>Rafael Nadal</PLAYER>
+		<COUNTRY>Španija</COUNTRY>
+		<AGE>33</AGE>
+		<POINTS>9,850</POINTS>
+	</TENISER>
+	<TENISER>
+		<RANKING>3</RANKING>
+		<PLAYER>Dominik Tim</PLAYER>
+		<COUNTRY>Austrija</COUNTRY>
+		<AGE>26</AGE>
+		<POINTS>7,045</POINTS>
+	</TENISER>
+	<TENISER>
+		<RANKING>4</RANKING>
+		<PLAYER>Rodžer Federer</PLAYER>
+		<COUNTRY>Švajcarska</COUNTRY>
+		<AGE>38</AGE>
+		<POINTS>6,630</POINTS>
+	</TENISER>
+	<TENISER>
+		<RANKING>5</RANKING>
+		<PLAYER>Danil Medvedev</PLAYER>
+		<COUNTRY>Rusija</COUNTRY>
+		<AGE>24</AGE>
+		<POINTS>5,890</POINTS>
+	</TENISER>
+	<TENISER>
+		<RANKING>6</RANKING>
+		<PLAYER>Stefanos Cicipas</PLAYER>
+		<COUNTRY>Grčka</COUNTRY>
+		<AGE>21</AGE>
+		<POINTS>4,745</POINTS>
+	</TENISER>
+	<TENISER>
+		<RANKING>7</RANKING>
+		<PLAYER>Aleksandar Zverev</PLAYER>
+		<COUNTRY>Nemačka</COUNTRY>
+		<AGE>22</AGE>
+		<POINTS>3,630</POINTS>
+	</TENISER>
+	<TENISER>
+		<RANKING>8</RANKING>
+		<PLAYER>Mateo Beretini</PLAYER>
+		<COUNTRY>Italija</COUNTRY>
+		<AGE>23</AGE>
+		<POINTS>2,860</POINTS>
+	</TENISER>
+	<TENISER>
+		<RANKING>9</RANKING>
+		<PLAYER>Gael Monfis</PLAYER>
+		<COUNTRY>Francuska</COUNTRY>
+		<AGE>33</AGE>
+		<POINTS>2,860</POINTS>
+	</TENISER>
+	<TENISER>
+		<RANKING>10</RANKING>
+		<PLAYER>David Gofan</PLAYER>
+		<COUNTRY>Belgija</COUNTRY>
+		<AGE>29</AGE>
+		<POINTS>2,555</POINTS>
+	</TENISER>
+</ATP>
